@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Productos</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+ <div class="prin">
+	<div class="contenido">
+
+	<div class="bar">
+		<div class="logo">
+			<img src="img/quesoduro.png" width="125px" alt="logo">
+		</div>
+	<nav>
+		<ul>
+		<li><a href="index.html">Inicio</a></li>
+			<li><a href="productos.html">Productos</a></li>
+			<li><a href="nosotros.html">Quienes Somos</a></li>
+			<li><a href="pedidos.html">Pedidos</a></li>
+			<li><a href="novedades.html">Novedades</a></li>
+		</ul>
+	</nav>
+	<img src="img/pngwing.com.png" width="30px" height="30px">
+	</div>
+	</div>
+</div>
+
+
+
+
+	<div class="for">
+		<form  name="queso" action="solicitud.asp" method="post" enctype="multipart/form-data">
+			<fieldset>
+				<legend>Datos pedido</legend>
+				<div>
+
+					<label for="fechapedido">Fecha de pedido*:</label>
+
+					<input type="date" name="fechapedido" id="fechapedido" required size="40">
+
+				</div>
+				<div>
+					<label for="nombre">Nombre*:</label>
+					<input type=text name="nombre" id="nombre" required size="40">
+				</div>
+				<div>
+					<label for="apellidos">Apellidos*:</label>
+					<input type="text" name="apellidos" id="apellidos" required size="40">
+				</div>
+				<div>
+					<label for="correo">Correo electrónico</label>
+					<input type="email" name="correo" id="correo" size="40">
+				</div>
+				<div >
+					<label for="tel">Telefóno</label>
+					<input type="tel" name="tel" id="tel" size="40">
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Pedido</legend>
+				<div>
+					<label>Quesos: </label>
+					<div>
+						<input type="checkbox" name="BRUGGE ABADIA" id="BRUGGE ABADIA" value="BRUGGE ABADIA"><label for="BRUGGE ABADIA">BRUGGE ABADIA</label><br>
+						<input type="checkbox" name="CABRALES DOP VEGA DE TORIN" id="CABRALES DOP VEGA DE TORIN" value="CABRALES DOP VEGA DE TORIN"><label for="CABRALES DOP VEGA DE TORIN">CABRALES DOP VEGA DE TORIN</label><br>
+						<input type="checkbox" name="MAHON CURADO ARTESANO DOP" id="MAHON CURADO ARTESANO DOP" value="MAHON CURADO ARTESANO DOP"><label for="MAHON CURADO ARTESANO DOP">MAHON CURADO ARTESANO DOP</label><br>
+						<input type="checkbox" name="LEICESTERSHIRE ROJO VIEJO" id="LEICESTERSHIRE ROJO VIEJO" value="hLEICESTERSHIRE ROJO VIEJO"><label for="LEICESTERSHIRE ROJO VIEJO">LEICESTERSHIRE ROJO VIEJO</label>
+					</div>
+				</div>
+				<div class="row">
+					<label for="observaciones" class="cabecera" >Observaciones:</label>
+					<textarea name="observaciones" id="observaciones" rows="6" cols="60"></textarea>
+				</div>
+				<div class="botones">
+					<input type="submit" name="enviar" id="enviar" value="enviar">
+					<input type="reset" name="borrar" id="borrar" value="borrar">
+				</div>
+			</fieldset>
+		</form>
+	</div>
+
+
+
+<footer>
+	<div class="contenido">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Descarga nuestra App</h3>
+				<div class="app">
+					<img src="img/play-store.png">
+					<img src="img/app-store.png">
+				</div>
+			</div>
+			<div class="footer-col-3">
+				<h3>Informacion</h3>
+				<ul>
+					<li>Cupones</li>
+					<li>Blog</li>
+					<li>Politica de devoluciones</li>
+					<li>Unetenos</li>
+				</ul>
+			</div>
+			<div class="footer-col-4">
+				<h3>Siguenos</h3>
+				<ul>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>instagram</li>
+					<li>Youtube</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<p class="copy">© 2019 Agencia SEO | Aviso legal | Política de privacidad</p>
+	</div>
+</footer>
+
+</body>
+</html>
